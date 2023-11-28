@@ -1,0 +1,68 @@
+@font-face {
+    font-family:ambidexter ;
+    src: local(ambidexter),
+    url(./ambidexter_regular.otf) ;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+}
+h1{
+    text-align: left;
+    font-family: ambidexter;
+    color: black;
+    text-shadow:0px 5px 5px lightgray;
+}
+h1:hover{
+    text-shadow: 0px 5px 5px rgb(208, 46, 200);
+}
+.sidebar{
+    width: 200px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float:left;
+    background-color: #5f2ed0; 
+    text-shadow: 0px 10px 5px rgb(48, 207, 243) ;
+}
+ul{
+    color: rgb(48, 207, 243)55, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding-top: 17px;
+    margin-left: -15px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+}
+
+ul:hover{
+filter: drop-shadow(0px 0px 10px lightblue);
+}
+.aside{
+    width: 260px;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float:left;
+background: #120b76;
+}
+.title{
+    width: 40%;
+    height: 30px;
+    float:left;
+    color: white;
+    background-color: #7e1284;
+}
+h2{
+margin-top: -2px;
+margin-left: 10px;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 40%;
+    height: 100%;
+    margin-bottom: 10px;
+    float:left;
+    color: #392ed0;
+}
